@@ -134,7 +134,7 @@ header {
 }
 #logo {
 	display:block;
-	background:url(../images/logo.jpg) 0 0 no-repeat;
+	background:url(../images/logo.png) 0 0 no-repeat;
 	width:146px;
 	height:83px;
 	text-indent:-9999px
@@ -156,11 +156,12 @@ header {
 	line-height:42px;
 	text-transform:uppercase;
 	text-decoration:none;
-	font-weight:400
+	font-weight:400;
+	padding-top:12px;
 }
 #menu li a:hover, #menu #menu_active a {
-	background:url(../images/menu_active.gif) top repeat-x;
-	color:#fff
+	background-color:#FFBE1D !important;
+	color:#fff;
 }
 #top_nav {
 	float:right;
@@ -302,6 +303,18 @@ header {
 .box1 {
 	background:url(../images/bg_box1.jpg) top center no-repeat #dad6cc;
 	border-top:5px solid #cdc8bc;
+	padding:15px 30px 29px
+}
+.our_mission{
+	background-color : #64D2A8;
+	padding:15px 30px 29px
+}
+.become_member{
+	background-color : #9CCD36;
+	padding:15px 30px 29px
+}
+.box12 {
+	background-color : #FFBA1A;
 	padding:15px 30px 29px
 }
 .box1 strong {

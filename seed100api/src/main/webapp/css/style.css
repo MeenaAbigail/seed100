@@ -160,7 +160,7 @@ header {
 	padding-top:12px;
 }
 #menu li a:hover, #menu #menu_active a {
-	background:url(../images/menu_active.gif) top repeat-x;
+	background-color:#FFBE1D;
 	color:#fff;
 }
 #top_nav {
